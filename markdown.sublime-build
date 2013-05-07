@@ -1,0 +1,4 @@
+{
+	"cmd": ["node.exe", "$packages/user/md-to-html.js", "$file", "$file_path/$file_base_name.html"],
+	"selector":"text.html.markdown"
+}
