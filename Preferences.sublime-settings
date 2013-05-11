@@ -1,6 +1,18 @@
 {
-  "highlight_line": false,
-//  "line_numbers": false,
 	"color_scheme": "Packages/Color Scheme - Default/Twilight.tmTheme",
-	"font_size": 12
+	"font_size": 13,
+	"highlight_line": false,
+	"ignored_words":
+	[
+		"Int32",
+		"Nmp",
+		"T4",
+		"app",
+		"endforeach",
+		"endmacro",
+		"foreach",
+		"forloop",
+		"int32",
+		"templating"
+	]
 }
