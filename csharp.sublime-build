@@ -1,0 +1,4 @@
+{
+	"cmd": ["csc.exe", "$file"],
+	"selector":"source.cs"
+}

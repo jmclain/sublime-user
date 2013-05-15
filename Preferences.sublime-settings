@@ -13,6 +13,7 @@
 		"foreach",
 		"forloop",
 		"int32",
+		"params",
 		"templating"
 	]
 }
