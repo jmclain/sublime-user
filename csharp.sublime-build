@@ -1,4 +1,10 @@
 {
-	"cmd": ["csc.exe", "$file"],
-	"selector":"source.cs"
+	"selector":"source.cs",
+	"cmd": ["csc.exe", "@build.rsp"],
+	"variants" : [
+		{
+			"name" : "Run",
+			"cmd": ["csc.exe", "$file"]
+		}
+	]
 }

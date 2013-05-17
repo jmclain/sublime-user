@@ -31,6 +31,10 @@
 	{ "keys": ["ctrl+k", "ctrl+c"], "command": "toggle_comment", "args": { "block": false } },
 
 
+	{ "keys": ["ctrl+shift+b"], "command": "build", "args": {"variant": "Run"} },
+
+
+
 
 	{ "keys": ["`"], "command": "insert_snippet", "args": {"contents": "`$0'"}, "context":
 		[
