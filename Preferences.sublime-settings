@@ -7,13 +7,17 @@
 		"Int32",
 		"Nmp",
 		"T4",
+		"Xml",
 		"app",
 		"endforeach",
 		"endmacro",
+		"enums",
 		"foreach",
 		"forloop",
+		"html",
 		"int32",
 		"params",
-		"templating"
+		"templating",
+		"xml"
 	]
 }

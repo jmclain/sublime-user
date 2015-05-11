@@ -16,7 +16,7 @@
 	{ "keys": ["ctrl+clear"], "command": "show_at_center" },
 
 
-	{ "keys": ["f11"],     "command": "exec", "args": { "cmd" : ["tcc.exe", "/c", "f11.bat"] } },
+	{ "keys": ["f11"],     "command": "exec", "args": { "cmd" : ["tcc.exe", "/c", "f11.bat", "$file"] } },
 	{ "keys": ["alt+f11"], "command": "exec", "args": { "cmd" : ["tcc.exe", "/c", "f11.bat", "$file"] } },
 
 	{ "keys": ["f12"],     "command": "exec", "args": { "cmd" : ["tcc.exe", "/c", "f12.bat", "$file"] } },

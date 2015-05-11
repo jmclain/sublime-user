@@ -1,6 +1,6 @@
 {
 	"selector":"source.cs",
-	"cmd": ["csc.exe", "@build.rsp"],
+	"cmd": ["csc.exe", "@.build.rsp"],
 	"variants" : [
 		{
 			"name" : "Run",
