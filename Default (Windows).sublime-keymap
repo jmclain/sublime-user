@@ -18,6 +18,11 @@
 
 	{ "keys": ["f11"],     "command": "exec", "args": { "cmd" : ["tcc.exe", "/c", "f11.bat", "$file"] } },
 	{ "keys": ["alt+f11"], "command": "exec", "args": { "cmd" : ["tcc.exe", "/c", "f11.bat", "$file"] } },
+	{ "keys": ["ctrl+f11"], "command": "exec", "args": { "cmd" : ["tcc.exe", "/c", "f11.bat", "$file"] } },
+
+	{ "keys": ["f12"],     "command": "exec", "args": { "cmd" : ["tcc.exe", "/c", "f12.bat", "$file"] } },
+	{ "keys": ["alt+f12"], "command": "exec", "args": { "cmd" : ["tcc.exe", "/c", "f12.bat", "$file"] } },
+	{ "keys": ["ctrl+f12"], "command": "exec", "args": { "cmd" : ["tcc.exe", "/c", "f12.bat", "$file"] } },
 
 	{ "keys": ["f12"],     "command": "exec", "args": { "cmd" : ["tcc.exe", "/c", "f12.bat", "$file"] } },
 	{ "keys": ["alt+f12"], "command": "exec", "args": { "cmd" : ["tcc.exe", "/c", "f12.bat", "$file"] } },
