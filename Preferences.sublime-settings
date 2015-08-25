@@ -1,6 +1,6 @@
 {
 	"color_scheme": "Packages/Color Scheme - Default/Twilight.tmTheme",
-	"font_size": 13,
+	"font_size": 14,
 	"highlight_line": false,
 	"ignored_packages":
 	[
@@ -23,5 +23,6 @@
 		"params",
 		"templating",
 		"xml"
-	]
+	],
+	"tab_size": 2
 }
