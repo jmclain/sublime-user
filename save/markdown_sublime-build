@@ -1,5 +1,5 @@
 {
 	//"cmd": ["node.exe", "$packages/user/md-to-html.js", "$file", "$file_path/$file_base_name.html"],
 	"cmd": ["node.exe", "$packages/user/md-to-html.js", "$file", "$file_path/$file_base_name"],
-	"selector":"text.html.markdown"
+	"selector":"source.md, text.html.md"
 }

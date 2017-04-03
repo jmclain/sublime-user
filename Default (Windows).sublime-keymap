@@ -5,6 +5,8 @@
 
 	{ "keys": ["keypad_multiply"], "command": "undo" },
 
+	{ "keys": ["ctrl+shift+s"], "command": "save_all" },
+
 
 	{ "keys": ["keypad_minus"], "command": "cut" },
 	{ "keys": ["keypad_plus"], "command": "copy" },

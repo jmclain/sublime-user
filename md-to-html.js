@@ -10,8 +10,8 @@ var output = marked.parse( input );
 var header = '\
 <!DOCTYPE html>\
 	<head>\
-    <link href="https://a248.e.akamai.net/assets.github.com/assets/github-d5919c2c85462b6c3d5b24d94361e0cfe7c6d3c1.css" media="all" rel="stylesheet" type="text/css" />\
-    <link href="https://a248.e.akamai.net/assets.github.com/assets/github2-c199e1478f7546c043f0929b27d7f1688483a16d.css" media="all" rel="stylesheet" type="text/css" />\
+    <link crossorigin="anonymous" href="https://assets-cdn.github.com/assets/frameworks-c90d888b6f5151dadd198c29754c69062ad2d2b96ccd6484e1439cff77089623.css" media="all" rel="stylesheet" />\
+    <link crossorigin="anonymous" href="https://assets-cdn.github.com/assets/github-5d574eecbac2894f972a707946d2a8354c1889e1a778c5648346ceb969c60660.css" media="all" rel="stylesheet" />\
 	</head>\
 	<body>\
 		<div id="wiki-content">\
@@ -31,8 +31,8 @@ var footer = '\
 ;'
 
 
-console.log( 'writing result: ' + process.argv[3] )
-fs.writeFileSync( process.argv[3], header + output + footer, {encoding: 'utf8'} );
+console.log( 'writing result: ' + process.argv[3] + ".html" )
+fs.writeFileSync( process.argv[3] + ".html", header + output + footer, {encoding: 'utf8'} );
 
 console.log( 'done' );
 
